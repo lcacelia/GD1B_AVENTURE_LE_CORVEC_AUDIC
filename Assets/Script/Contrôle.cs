@@ -4,43 +4,53 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
-    public float speed = 5f; // Vitesse de déplacement du personnage
-    private Rigidbody2D rb; // Référence au Rigidbody2D
+    public float speed = 5f; 
+    public Sprite[] sprites; 
+    private Rigidbody2D rb; 
+    private SpriteRenderer spriteRenderer; 
 
     void Start()
     {
-        // Au démarrage du jeu, on récupère le Rigidbody2D attaché au personnage
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); 
+        rb.gravityScale = 0f; // Désactive la gravité pour éviter le glissement
 
-     
+        spriteRenderer = GetComponent<SpriteRenderer>(); 
     }
 
     void Update()
     {
-        // À chaque image affichée à l'écran, on vérifie les entrées du joueur
+        float horizontalInput = Input.GetAxis("Horizontal"); 
+        float verticalInput = Input.GetAxis("Vertical"); 
 
-        // Mouvement horizontal (gauche/droite)
-        float horizontalInput = Input.GetAxis("Horizontal");
-
-        // Mouvement vertical (haut/bas)
-        float verticalInput = Input.GetAxis("Vertical");
-
-        // On crée un vecteur de mouvement en fonction des entrées du joueur
-        Vector2 movement = new Vector2(horizontalInput, verticalInput);
-
-        // Si le vecteur de mouvement n'est pas nul, on applique la vélocité
-        if (movement != Vector2.zero)
+        Vector2 movement = new Vector2(horizontalInput, verticalInput); 
+        if (movement != Vector2.zero) // Vérifie si le joueur se déplace
         {
-            // On multiplie le vecteur de mouvement par la vitesse pour obtenir la vélocité
-            Vector2 velocity = movement * speed;
+            Vector2 velocity = movement * speed; // Calcule la vélocité du mouvement
+            rb.velocity = velocity; 
 
-            // On applique cette vélocité au Rigidbody2D pour que le personnage se déplace
-            rb.velocity = velocity;
+            // Change le sprite en fonction de la direction du mouvement
+            ChangeSpriteDirection(horizontalInput, verticalInput);
         }
-        else
+       
+    }
+    void ChangeSpriteDirection(float horizontalInput, float verticalInput)
+    {
+        // Change le sprite en fonction de la direction du mouvement
+        if (horizontalInput < 0) 
         {
-            // Si aucune touche n'est pressée, on arrête le déplacement
-            rb.velocity = Vector2.zero;
+            spriteRenderer.sprite = sprites[0]; 
+        }
+        else if (horizontalInput > 0) 
+        {
+            spriteRenderer.sprite = sprites[1]; 
+        }
+        else if (verticalInput > 0)
+        {
+            spriteRenderer.sprite = sprites[2]; 
+        }
+        else if (verticalInput < 0) 
+        {
+            spriteRenderer.sprite = sprites[3]; 
         }
     }
 }
