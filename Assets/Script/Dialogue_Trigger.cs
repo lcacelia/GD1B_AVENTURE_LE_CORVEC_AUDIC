@@ -1,50 +1,40 @@
 using UnityEngine;
-using UnityEngine.UI;
 
-public class DialogueTrigger : MonoBehaviour
+public class Dialogue_Trigger : MonoBehaviour
 {
     public Dialogue dialogue;
 
-    private bool isInRange;
+    public bool isInRange;
+ 
 
-    private Text interactUI;
-
-    private void Awake()
-    {
-        isInRange = false;
-        interactUI = GameObject.FindGameObjectWithTag("InteractUI").GetComponent<Text>();
-    }
-
+    // Update is called once per frame
     void Update()
     {
-        if (isInRange && Input.GetKeyDown(KeyCode.E))
+        if(isInRange && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("ouai gros");
             TriggerDialogue();
         }
+        
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        if(collision.CompareTag("Player"))
         {
             isInRange = true;
-            interactUI.enabled = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             isInRange = false;
-            interactUI.enabled = false;
         }
     }
 
     void TriggerDialogue()
     {
         Dialogue_Manager.instance.StartDialogue(dialogue);
-        Debug.Log("ouai)");
     }
 }

@@ -1,9 +1,9 @@
 using UnityEngine;
 
 [System.Serializable]
-public class Dialogue : MonoBehaviour
+public class Dialogue
 {
-    public new string name;
+    public string name;
 
     [TextArea(3, 10)]
     public string[] sentences;
