@@ -1,11 +1,17 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Dialogue_Trigger : MonoBehaviour
 {
     public Dialogue dialogue;
 
     public bool isInRange;
- 
+    private Text interacUI;
+
+    private void Awake()
+    {
+        interacUI = GameObject.FindGameObjectWithTag("InteracUI").GetComponent<Text>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -22,6 +28,7 @@ public class Dialogue_Trigger : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             isInRange = true;
+            interacUI.enabled = true;
         }
     }
 
@@ -30,6 +37,7 @@ public class Dialogue_Trigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isInRange = false;
+            interacUI.enabled = false;
         }
     }
 
