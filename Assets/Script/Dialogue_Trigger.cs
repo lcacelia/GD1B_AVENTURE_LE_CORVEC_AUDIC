@@ -38,6 +38,7 @@ public class Dialogue_Trigger : MonoBehaviour
         {
             isInRange = false;
             interacUI.enabled = false;
+            Dialogue_Manager.instance.EndDialogue();
         }
     }
 
