@@ -468,7 +468,7 @@ GameObject:
   - component: {fileID: 127051414}
   m_Layer: 0
   m_Name: Circle (2)
-  m_TagString: Untagged
+  m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 140339024}
   m_Layer: 0
   m_Name: Circle (1)
-  m_TagString: Untagged
+  m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -749,8 +749,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14, y: 55.5911}
-  m_SizeDelta: {x: 720.9377, y: 398.8178}
+  m_AnchoredPosition: {x: -21, y: 40}
+  m_SizeDelta: {x: 886.2667, y: 513.2042}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &225114438
 MonoBehaviour:
@@ -2584,9 +2584,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 229, y: 109}
-  m_SizeDelta: {x: 47.0753, y: 48.638}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 340.8, y: 121.1}
+  m_SizeDelta: {x: 66.0872, y: 68.961}
+  m_Pivot: {x: 1.4423954, y: 0.6330917}
 --- !u!114 &1329283706
 MonoBehaviour:
   m_ObjectHideFlags: 0
