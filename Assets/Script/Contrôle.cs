@@ -19,18 +19,14 @@ public class CharacterController : MonoBehaviour
 
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal"); 
-        float verticalInput = Input.GetAxis("Vertical"); 
+        float horizontalInput = Input.GetAxisRaw("Horizontal"); 
+        float verticalInput = Input.GetAxisRaw("Vertical"); 
 
-        Vector2 movement = new Vector2(horizontalInput, verticalInput); 
-        if (movement != Vector2.zero) // Vérifie si le joueur se déplace
-        {
-            Vector2 velocity = movement * speed; // Calcule la vélocité du mouvement
-            rb.velocity = velocity; 
-
-            // Change le sprite en fonction de la direction du mouvement
-            ChangeSpriteDirection(horizontalInput, verticalInput);
-        }
+       
+        Vector2 deplacements = new Vector2(horizontalInput, verticalInput);
+        rb.velocity = deplacements * speed;
+        ChangeSpriteDirection(horizontalInput, verticalInput);
+        
        
     }
     void ChangeSpriteDirection(float horizontalInput, float verticalInput)

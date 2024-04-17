@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be04b0216a9451418576ec6400b4a85, type: 3}
+  m_Name: speed potion
+  m_EditorClassIdentifier: 
+  id: 0
+  nom: potion de vitesse
+  description: tu cours vite
+  image: {fileID: 21300000, guid: b1e26dd9ea7f1f448b30a9e6074a7014, type: 3}
+  hpGiven: 0
+  speedGiven: 50
+  speedDuration: 5

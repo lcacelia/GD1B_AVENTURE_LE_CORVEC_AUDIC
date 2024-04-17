@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be04b0216a9451418576ec6400b4a85, type: 3}
+  m_Name: Potion de vie
+  m_EditorClassIdentifier: 
+  id: 1
+  nom: Potion de vie
+  description: Une potion magic qui vous redonnes 1 coeur perdu.
+  image: {fileID: 21300000, guid: e18a1ca7785aa294db62014f572fcb51, type: 3}
+  hpGiven: 1
+  speedGiven: 0
+  speedDuration: 0
