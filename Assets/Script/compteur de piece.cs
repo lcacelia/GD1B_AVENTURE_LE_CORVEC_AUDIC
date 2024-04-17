@@ -9,6 +9,14 @@ public class compteurdepiece : MonoBehaviour
 
     private int piece = 0;
 
+    private Rigidbody2D rbody;
+    private BoxCollider col;
+
+    private void Start()
+    {
+        rbody = GetComponent<Rigidbody2D>();
+        col = GetComponent<BoxCollider>();
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
 
