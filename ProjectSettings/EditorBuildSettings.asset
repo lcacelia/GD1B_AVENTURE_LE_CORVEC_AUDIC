@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: e614b3f66955b324ca165cb4bfbc5e86
   - enabled: 1
-    path: Assets/Scenes/Zone 1.unity
+    path: Assets/Scenes/Cinematique.unity
+    guid: e724a60d00092b44a8a9055015ac8eef
+  - enabled: 1
+    path: Assets/Scenes/Ma_maison.unity
+    guid: affd50ef17225aa4488e8b507aed2cff
+  - enabled: 1
+    path: Assets/Scenes/Foret.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

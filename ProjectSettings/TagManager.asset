@@ -9,6 +9,7 @@ TagManager:
   - Mechant
   - Boss
   - Collectible
+  - player
   layers:
   - Default
   - TransparentFX
