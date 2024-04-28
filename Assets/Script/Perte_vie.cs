@@ -18,6 +18,7 @@ public class death : MonoBehaviour
     private bool invincible = false;
     void Start()
     {
+        DontDestroyOnLoad(this);
         body = GetComponent<Rigidbody2D>();
         col = GetComponent<BoxCollider2D>();
         invicible = false;

@@ -783,8 +783,16 @@ MonoBehaviour:
   dialogue:
     name: Rihana
     sentences:
-    - sa poupou la sa pobelle
-    - ' nansti PATA PA'
+    - "OH tu es reveill\xE9e !"
+    - "Ma chere enfant, tu dois aller liberer ton fid\xE8le compagnon qui a disparue
+      lors de la violente temp\xEAte."
+    - 'Je te donne se vieux livre, il pourrait t''aider !
+
+'
+    - ( aide ="Clic sur livre  pour l'ouvrir")
+    - Tu devrais aller recolter des informations avec les autres villageois !
+    - Je pense que tu peux les trouver dans leurs maison!
+    - BON COURAGE MA PETITE!!!!
   isInRange: 0
 --- !u!61 &277207357
 BoxCollider2D:

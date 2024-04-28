@@ -10,6 +10,8 @@ TagManager:
   - Boss
   - Collectible
   - player
+  - vitess
+  - vie
   layers:
   - Default
   - TransparentFX

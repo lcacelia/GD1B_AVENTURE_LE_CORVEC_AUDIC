@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 693daae215812e34ea3159c0d964e8bf
+guid: 8f510c13c12254f409636995443060b6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Anime_E2_0
+      name: Sole_Grotte_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 341
-        height: 837
+        y: 328.5
+        width: 348
+        height: 328.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65556af5d924b3d4d9d3ec6df8a32493
-      internalID: 1924529213
+      spriteID: 1126cdd89c5efa24397fe25cf83d4fd2
+      internalID: -551147740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Anime_E2_1
+      name: Sole_Grotte_1
       rect:
         serializedVersion: 2
-        x: 341
-        y: 0
-        width: 341
-        height: 837
+        x: 0
+        y: 0.5
+        width: 348
+        height: 328.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,50 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f2c4800edce377459c8d6ad789a9b96
-      internalID: -1150661158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Anime_E2_2
-      rect:
-        serializedVersion: 2
-        x: 682
-        y: 0
-        width: 341
-        height: 837
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8162f8c3f86902c4db0f7f90e5aae00d
-      internalID: -1500784480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Anime_E2_3
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 0
-        width: 341
-        height: 837
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b67254a1867bad542913578c29b4ad03
-      internalID: -1399559385
+      spriteID: 1f31e2763efe15640842574622796df1
+      internalID: -848015444
       vertices: []
       indices: 
       edges: []
@@ -191,10 +149,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Anime_E2_0: 1924529213
-      Anime_E2_1: -1150661158
-      Anime_E2_2: -1500784480
-      Anime_E2_3: -1399559385
+      Sole_Grotte_0: -551147740
+      Sole_Grotte_1: -848015444
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class compteurdepiece : MonoBehaviour
+public class compteur_popo_vie : MonoBehaviour
 {
-    [SerializeField] public Text piece_counter;
+    [SerializeField] public Text vie_counter;
 
-    private int piece = 0;
+    private int vie = 0;
 
     private Rigidbody2D rbody;
     private BoxCollider col;
@@ -21,10 +21,10 @@ public class compteurdepiece : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.CompareTag("Collectible"))
+        if (other.CompareTag("vie"))
         {
-            piece += 1;
-            piece_counter.text = "" + piece;
+            vie += 1;
+            vie_counter.text = "" + vie;
             Destroy(other.gameObject);
         }
     }

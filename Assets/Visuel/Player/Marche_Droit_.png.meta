@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 693daae215812e34ea3159c0d964e8bf
+guid: c66a8f1d7f2989240bc83dc562723f61
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,91 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Anime_E2_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 341
-        height: 837
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65556af5d924b3d4d9d3ec6df8a32493
-      internalID: 1924529213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Anime_E2_1
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 0
-        width: 341
-        height: 837
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f2c4800edce377459c8d6ad789a9b96
-      internalID: -1150661158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Anime_E2_2
-      rect:
-        serializedVersion: 2
-        x: 682
-        y: 0
-        width: 341
-        height: 837
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8162f8c3f86902c4db0f7f90e5aae00d
-      internalID: -1500784480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Anime_E2_3
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 0
-        width: 341
-        height: 837
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b67254a1867bad542913578c29b4ad03
-      internalID: -1399559385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -190,11 +106,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Anime_E2_0: 1924529213
-      Anime_E2_1: -1150661158
-      Anime_E2_2: -1500784480
-      Anime_E2_3: -1399559385
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
