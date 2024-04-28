@@ -19509,6 +19509,7 @@ MonoBehaviour:
     sentences:
     - coin
     - "Toi aussi tu es venue ici pour t'entra\xEEner"
+    - (petit conseil :" utilise la barre espace pour tuer les enemies")
     - coin coin
   isInRange: 0
 --- !u!61 &635079405

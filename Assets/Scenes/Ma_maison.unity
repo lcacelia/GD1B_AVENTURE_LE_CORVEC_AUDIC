@@ -781,7 +781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Rihana
+    name: Papy
     sentences:
     - "OH tu es reveill\xE9e !"
     - "Ma chere enfant, tu dois aller liberer ton fid\xE8le compagnon qui a disparue
@@ -793,6 +793,8 @@ MonoBehaviour:
     - Tu devrais aller recolter des informations avec les autres villageois !
     - Je pense que tu peux les trouver dans leurs maison!
     - BON COURAGE MA PETITE!!!!
+    - ( aide ="utilise les fleche de ton ")
+    - ( aide ="utilise les fleches de ton clavier pour te deplacer")
   isInRange: 0
 --- !u!61 &277207357
 BoxCollider2D:
